@@ -1,0 +1,76 @@
+html, body {
+  width: 100%;
+  height:100%;
+}
+
+div.background {
+  background-image: url(../img/intothesun.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+div.transBox-header {
+  background-color: #FFF;
+  border: 1px solid black;
+  display: block; /*centers text of div.  switch to block to get them to align left*/
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* for ie8 or earlier */
+  justify-content: center;
+  align-content: center;
+  padding: 10px;
+  margin-top: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+div.transBox {
+  background-color: #FFF;
+  border: 1px solid black;
+  display: flex; /*centers text of div.  switch to block to get them to align left*/
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* for ie8 or earlier */
+  justify-content: center;
+  align-content: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+
+div.transBox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #777777;
+  justify-content: center;
+  align-content: center;
+}
+
+div.transBox ol {
+  list-style: decimal;
+  display: list-item !important;
+}
+
+div.transBox ul {
+  list-style: dotted; /*don't think dotted is correct*/
+  display: list-item !important;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 60px;
+  color: #777777;
+}
+
+h2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 40px;
+  color: #777777;
+}
+
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
