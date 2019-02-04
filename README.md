@@ -28,3 +28,7 @@ As a developer, I want to make my code more DRY by putting all of the questions,
 Technical Requirements for Lab 03
 
 Per the user stories, you will need to include in your HTML at least one each of an ordered and an unordered list.  Use prompt for input and alert for output to the user, unless you are working on the third Stretch Goal.  Do not write any functions in your JavaScript.  Expect that you will probably need both 'for' and 'while' structures for your sixth and seventh questions. But not necessarily.
+
+Question 6: Guess my favorite number between 0 and 99.  HINT: One of my favorite authors is Zecharia Sitchin.  In the book the \"12th Planet\" many numbers are discussed, but only one is my favorite number.  You have 4 tries to get it right.
+
+Question 7: From a list unknown to charName, are 5 different famous people who have said 5 famous quotes.  For the correct answer, guess 1 out of 5 famous people from this list. (add an alert that will display the famous person and quote of the correct answer if answered correctly.  IF all 4 guesses run out, move on.  stretch goal could be to display all the names and quotes.)
