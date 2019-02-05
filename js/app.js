@@ -125,10 +125,10 @@ do{
     Q7guessRemains--;
     console.log(Q7guessRemains);
   }
-  if (Q7guessRemains === 6) {
-    alert(charName + ', you are out of tries.')
+  if (Q7guessRemains === 0) {
+    alert(charName + ', you are out of tries.');
   }
-} while (Q7guessRemains > 6);
+} while (Q7guessRemains > 0);
 alert('My top 5 favorite people to quote are: Bruce Lee, Winston Churchill, Aristotle, Albert Einstein, and Abraham Lincoln');
 
 // TALLIES THE FINAL SCORE
@@ -136,7 +136,7 @@ alert('ALL FINISHED.  ' + charName + ' of the ' + charRace + ' race, please join
 alert('FINAL SCORE: ' + totalCount + ' out of 7 possible.');
 console.log('The User\'s final score was ' + totalCount + ' out of 7');
 
-// END THE GAME
+// END THE GAME/thank user for playing
 var userSat = prompt(charName + ', were you happy with your experience?');
 userSat = userSat.toUpperCase();
 
