@@ -3,6 +3,18 @@ html, body {
   height:100%;
 }
 
+:any-link {
+  color: rgb(34, 131, 160);
+  font-weight: normal;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-decoration: none;
+}
+
 div.background {
   background-image: url(../img/intothesun.jpg);
   background-size: cover;
